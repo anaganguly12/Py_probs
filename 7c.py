@@ -1,0 +1,5 @@
+s1 = input("Enter a comma-separated string: ")
+s2 = s1.split(',')
+print(s2)
+s2.sort()
+print(','.join(s2))
